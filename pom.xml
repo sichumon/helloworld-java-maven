@@ -40,14 +40,14 @@
   
 <distributionManagement>
     <repository>
-        <id>rajesh</id>
-        <name>rajesh-releases</name>
-        <url>http://13.232.2.248:8080/artifactory/rajesh</url>
+        <id>prodx</id>
+        <name>prodx-releases</name>
+        <url>http://cinode:8081/repository/maven-releases</url>
     </repository>
     <snapshotRepository>
-        <id>rajesh</id>
-        <name>rajesh-snapshots</name>
-        <url>http://13.232.2.248:8080/artifactory/rajesh</url>
+        <id>prodx</id>
+        <name>prodx-snapshots</name>
+        <url>http://cinode:8081/repository/maven-snapshots</url>
     </snapshotRepository>
 </distributionManagement>
 
